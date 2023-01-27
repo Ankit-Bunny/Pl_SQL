@@ -6,3 +6,6 @@ insert into store(id,s_name,s_address,s_city)
 values (i,'Sanik_Sweets','Nagar Bhawan','Buxar');
 end loop;
 end;
+
+-- Insert multiple command here contact switching is done which is costly.
+-- Contact switching because pl/sql engin is switching to sql query engin to insert a data every time loop is incrementing and its costiler and not performace tuning.
